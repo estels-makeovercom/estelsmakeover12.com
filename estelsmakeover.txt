@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head></head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estel’s Makeover</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #fcbad3, #ffdde1);
+      color: #333;
+    }
+    header {
+      background-color: #800080;
+      color: white;
+      text-align: center;
+      padding: 25px;
+    }
+    header h1 { margin:0; font-size:32px; }
+    header p { font-style: italic; font-size:18px; }
+    section { margin:30px; background:white; padding:25px; border-radius:15px; box-shadow:0 0 10px rgba(0,0,0,0.1); }
+    h2 { color:#800080; text-align:center; }
+    ul { line-height:1.8; }
+    img { display:block; margin:0 auto; border-radius:10px; border:3px solid #ff66b2; width:350px; height:350px; }
+    .button { display:inline-block; background-color:#ff66b2; eeepadding:10px 20px; border-radius:8px; text-decoration:none; font-weight:bold; transition:0.3s; }
+    .button:hover { background-color:#ff3385; box-shadow:0 0 10px #ff66b2; }
+    form { text-align:center; }
+    input, select, textarea { width:80%; padding:10px; margin:10px 0; border:2px solid #ff66b2; border-radius:8px; font-size:14px; }
+    footer { background-color:#800080; color:white; text-align:center; padding:15px; margin-top:30px; }
+    a { color:#ff66b2; text-decoration:none; }
+    a:hover { color:#ff3385; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Estel’s Makeover</h1>
+    <p>“Excellence in Perfection”</p>
+  </header>
+
+  <section>
+    <h2>Our Services</h2>
+    <ul>
+      <li>Bridal & Home Makeup</li>
+      <li>Walk-in Makeup</li>
+      <li>Lash Extension</li>
+      <li>Brow Tinting</li>
+      <li>Nails & Manicure/Pedicure</li>
+      <li>Wig Styling</li>
+      <li>And more...</li>
+    </ul>
+    <p>We provide professional beauty services for every occasion. Let us bring out your best look!</p>
+  </section>
+
+  
+
+  <section>
+    <h2>Book a Makeup Session</h2>
+    <form onsubmit="sendToWhatsApp(); return false;">
+      <input type="text" id="name" placeholder="Enter your name" required><br>
+      <select id="type">
+        <option>Walk-in Makeup</option>
+        <option>Bridal Makeup</option>
+        <option>Home Makeup</option>
+        <option>Others</option>
+      </select><br>
+      <input type="date" id="date" required><br>
+      <input type="time" id="time" required><br>
+      <input type="tel" id="number" placeholder="Enter your phone number" required><br>
+      <textarea id="message" rows="4" placeholder="Write a message or text 'Hi' to 0248897429"></textarea><br>
+      <button type="submit" class="button">Send Booking via WhatsApp</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Estel’s Makeover | “Excellence in Perfection” | Nungua Kantamanto</p>
+    <p>Call/Text: <a href="tel:0248897429" style="color:white;">0248897429</a></p>
+  </footer>
+
+  <script>
+    function sendToWhatsApp() {
+      var name = document.getElementById("name").value;
+      var type = document.getElementById("type").value;
+      var date = document.getElementById("date").value;
+      var time = document.getElementById("time").value;
+      var number = document.getElementById("number").value;
+      var message = document.getElementById("message").value;
+
+      var url = "https://wa.me/233248897429?text=" 
+        + "Name: " + name + "%0a"
+        + "Type of Makeup: " + type + "%0a"
+        + "Date: " + date + "%0a"
+        + "Time: " + time + "%0a"
+        + "Phone: " + number + "%0a"
+        + "Message: " + message;
+
+      window.open(url, '_blank').focus();
+    }
+  </script>
+
+</body>
+</html>
+
+
+---
+
+2️⃣ Estel’s Makeup School (Training Site)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estel’s Makeup School</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #fcbad3, #ffdde1);
+      color: #333;
+    }
+    header {
+      background-color: #800080;
+      color: white;
+      text-align: center;
+      padding: 25px;
+    }
+    header h1 { margin:0; font-size:32px; }
+    header p { font-style: italic; font-size:18px; }
+    section { margin:30px; background:white; padding:25px; border-radius:15px; box-shadow:0 0 10px rgba(0,0,0,0.1); }
+    h2 { color:#800080; text-align:center; }
+    ul { line-height:1.8; }
+    footer { background-color:#800080; color:white; text-align:center; padding:15px; margin-top:30px; }
+    a { color:#ff66b2; text-decoration:none; }
+    a:hover { color:#ff3385; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Estel’s Makeup School</h1>
+    <p>“Excellence in Perfection”</p>
+  </header>
+
+  <section>
+    <h2>About the School</h2>
+    <p>Welcome to <b>Estel’s Makeup School</b> — where your beauty passion turns into a career! We provide hands-on training in:</p>
+    <ul>
+      <li>Wig Making</li>
+      <li>Nails Fixing</li>
+      <li>Brow Tinting</li>
+      <li>Lash Extension</li>
+      <li>Bridal & Home Makeup</li>
+      <li>Manicure & Pedicure</li>
+    </ul>
+    <p>Open Tuesday to Friday, with Saturday and evening classes available. Join us at Nungua Kantamanto (Opp. Taxi Rank)!</p>
+  </section>
+
+  <section>
+    <h2>Student Requirements</h2>
+    <ul>
+      <li>Black Shoes & Socks</li>
+      <li>Black Sandals</li>
+      <li>Makeup Bag (Sold in School)</li>
+      <li>Makeup Products (Sold in School)</li>
+      <li>Wrist Watch</li>
+      <li>Wednesday Wear (Material Sold in School)</li>
+    </ul>
+    <p><b>NB:</b> All other items should be decent.</p>
+  </section>
+
+  <section>
+    <h2>School Timings</h2>
+    <p><b>Morning Students:</b> 9:00 AM – 2:00 PM<br>
+       <b>Evening Students:</b> 2:00 PM – 6:00 PM</p>
+  </section>
+
+  <section>
+    <h2>Enroll Now</h2>
+    <p>To enroll, visit us in person or send a message via WhatsApp: <a href="https://wa.me/233248897429" target="_blank">0248897429</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Estel’s Makeup School | “Excellence in Perfection” | Nungua Kantamanto</p>
+    <p>Call/Text: <a href="tel:0248897429" style="color:white;">0248897429</a></p>
+  </footer>
+
+</body>
+</html>
