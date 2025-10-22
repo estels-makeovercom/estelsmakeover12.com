@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head></head>
+<head><meta name="google-site-verification" content="KOkmjO0L1FLnQH8gmr6GZQKUhcriC3DN_aX4YVlDrbI" /></head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Estel’s Makeover</title>
